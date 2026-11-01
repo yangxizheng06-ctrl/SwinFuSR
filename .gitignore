@@ -1,3 +1,27 @@
 /Model/
 *pycache*
 /Test/
+
+# Local IDE settings
+.idea/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Local virtual environments
+.venv/
+venv/
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Experiment outputs
+wandb/
+runs/
+logs/
+results/
+outputs/
